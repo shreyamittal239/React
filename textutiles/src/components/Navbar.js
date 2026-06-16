@@ -24,7 +24,6 @@ export default function Navbar(props) {
   <label className="form-check-label" htmlFor="switchCheckDefault">Enable Dark mode</label>
 </div>
 
-      
     </div>
   </div>
 </nav>
