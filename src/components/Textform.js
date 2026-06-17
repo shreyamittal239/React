@@ -101,15 +101,16 @@ export default function Textform(props) {
   />
 </div>
 </div>
-
+<div className="d-flex flex-wrap gap-2" >
 <button className='btn btn-primary ' onClick={handleUpClick}>Convert to Uppercase</button>
-<button className='btn btn-primary mx-3' onClick={handleLowClick}>Convert to Lowercase</button>
-<button className='btn btn-primary mx-1' onClick={handleClearClick}>Clear Text</button>
-<button className='btn btn-primary mx-2' onClick={handleCopyClick}>Copy Text</button>
-<button className='btn btn-primary mx-2' onClick={handleDownload}>Download Text</button>
-<button className='btn btn-primary mx-2' onClick={handleExtraSpace}>Handle Extra Spaces</button>
-<button className='btn btn-primary mx-2' onClick={insertFor}>Insert for</button>
-<button className='btn btn-primary mx-2' onClick={handleReplace}>Find and Replace</button>
+<button className='btn btn-primary ' onClick={handleLowClick}>Convert to Lowercase</button>
+<button className='btn btn-primary ' onClick={handleClearClick}>Clear Text</button>
+<button className='btn btn-primary ' onClick={handleCopyClick}>Copy Text</button>
+<button className='btn btn-primary ' onClick={handleDownload}>Download Text</button>
+<button className='btn btn-primary ' onClick={handleExtraSpace}>Handle Extra Spaces</button>
+<button className='btn btn-primary ' onClick={insertFor}>Insert for</button>
+<button className='btn btn-primary ' onClick={handleReplace}>Find and Replace</button>
+</div>
 </div>
 
 <div className='container my-3' style={{color: props.mode==='dark'?'white':'#042743'}}>
